@@ -2,8 +2,9 @@ package com.leafBot.testcases;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.leafBot.pages.LoginPage;
+import com.leafBot.testng.api.base.Annotations;
 import com.leafBot.testng.api.base.ProjectSpecificMethods;
-public class TC001_CreateLead extends  ProjectSpecificMethods{
+public class TC001_CreateLead extends Annotations{
 	@BeforeTest
 	public void setData() {
 		excelFileName="TC001";
